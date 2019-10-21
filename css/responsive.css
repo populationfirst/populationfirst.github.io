@@ -1,0 +1,513 @@
+@media(max-width: 1440px) {
+
+    /* Our Projects */
+    /*
+    figure.effect-bubba:hover h2 {
+        padding-top: 16%;
+    }
+
+    figure.effect-bubba p {
+        padding: 0px 2.5em;
+        font-size: 0.9rem;
+    }
+
+    .grid figure figcaption {
+        font-size: 1.2em;
+    }
+*/
+    footer {
+        height: 400px;
+    }
+
+    .footer-details {
+        margin: 250px 0 0;
+    }
+
+    /* Our Projects */
+}
+
+@media(max-width: 1320px) {
+
+    /* Slider */
+    .top-slider .carousel-caption h1,
+    .top-slider .carousel-caption h2,
+    .top-slider .carousel-caption h3 {
+        font-size: 4rem;
+    }
+
+    /* Slider */
+    /* Logo */
+    div#popLogo {
+        margin: 0 0;
+    }
+
+    .logo {
+        background-color: #fff;
+        height: auto;
+    }
+
+    /* Logo */
+    /* Navbar */
+    nav.navbar.fixed-top.nav-bg {
+        background-color: #111;
+        /*margin-top: 100px;*/
+    }
+
+    /* Navbar */
+
+    /* Our Projects */
+    .grid figure figcaption {
+        font-size: 1.15em;
+    }
+
+    /* Our Projects */
+}
+
+@media (max-width:1199px) {
+
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .navbar-nav li.nav-item {
+        margin: 0 5px !important;
+    }
+
+    /* Navbar */
+    /* Footer */
+    ul.social-buttons li a {
+        width: 35px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 38px;
+    }
+
+    .phone.pl-4 {
+        padding-left: 0.2rem !important;
+    }
+
+    /* Footer */
+    /* our-projects */
+    .grid figure {
+        margin: 0;
+    }
+
+    .grid figure figcaption {
+        font-size: 0.9em;
+    }
+
+    /* our-projects */
+}
+
+
+@media (max-width:1024px) {
+
+    /* Navbar */
+    div#popLogo {
+        margin: 0;
+    }
+    /* Navbar */
+
+    /* Event */
+    .event-date {
+        padding: 12px;
+        height: 100px;
+    }
+    /* Event */
+    
+    footer {
+        background-size: 65rem;
+        height: auto;
+    }
+
+    footer .container {
+        background-color: #ebeaea;
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    .footer-details {
+        margin: 12rem 0 0;
+    }
+}
+
+@media (max-width:991px) {
+
+    /* Navigation */
+    .navbar-nav li.nav-item {
+        margin: 0;
+    }
+
+    ul.nav.nav-pills.custom_nav {
+        top: 3.5rem;
+    }
+
+    p.heroSecTitle {
+        left: 41%;
+    }
+
+    /*Footer */
+    footer {
+        height: 100%;
+    }
+
+    .footer-details {
+        margin: 190px 0 0;
+    }
+
+    .footer-details .contact-info {
+        justify-content: center;
+    }
+
+    /*Footer */
+    /* Our Event */
+    .event-date {
+        background: #ebebeb;
+        height: 160px;
+        padding: 40px;
+    }
+
+    .section-heading:before,
+    .section-heading:after {
+        width: 2rem;
+    }
+    /* Our Event */
+
+    /* Navbar */
+    nav.navbar.fixed-top.nav-bg {
+        opacity: 1 !important;
+        background-color: #111 !important;
+    }
+
+    .booking p:before {
+        top: -28px;
+    }
+
+    .booking p:after {
+        bottom: -28px;
+    }
+
+    /* Footer */
+    footer.contact-info {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .phone.pl-4 {
+        padding-left: 1.2rem !important;
+    }
+    
+    .booking {
+        padding: 3rem 3rem;
+    }
+}
+
+@media (max-width:850px) {
+    .logo {
+        height: auto;
+    }
+
+    nav.navbar.fixed-top.nav-bg {
+        background-color: #111;
+        /*margin-top: 80px;*/
+    }
+
+    .booking {
+        padding: 3rem 1rem;
+    }
+}
+
+@media(max-width: 768px) {
+    div#popLogo {
+        margin: 0;
+    }
+
+    header .carousel-caption {
+        display: block !important;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 1.05rem;
+    }
+    /* Our Event */
+    .event-date {
+        height: 120px;
+        padding: 20px;
+    }
+
+    span.date p {
+        margin-bottom: 0.15rem;
+        font-size: 1rem;
+    }
+
+    span.date {
+        left: 2rem;
+        padding: 0.5rem 1rem;
+        border-bottom-left-radius: 0.65rem;
+        border-bottom-right-radius: 0.65rem;
+    }
+
+    /* Our Event */
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+        background-color: #E81A25 !important;
+        padding: 0.75em 1rem !important;
+    }
+
+    footer .socialLinksDesktop {
+        display: none;
+    }
+
+    footer .socialLinks {
+        display: block;
+    }
+
+    footer {
+        background-size: 50rem;
+    }
+
+    .footer-details {
+        margin: 10rem 0 0;
+    }
+
+    footer .container {
+        background-color: #ebeaea;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-pills .nav-link {
+        margin: 0.65rem;
+    }
+}
+
+@media(max-width: 575px) {
+    div#popLogo {
+        margin: 0;
+    }
+
+    #Event {
+        top: 0;
+    }
+
+    /* Our Event */
+    .event-date {
+        height: 100px;
+        padding: 10px;
+        width: 100px !important;
+        margin: 0 auto;
+    }
+
+    .details {
+        border-left: none;
+    }
+
+    .section-heading {
+        font-size: 1.8rem;
+    }
+
+    .section-heading:before,
+    .section-heading:after {
+        width: 1.5rem;
+    }
+
+    /* Our Event */
+    span.date {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #ffcc00d9;
+        padding: 0;
+        border-bottom-left-radius: 0.15rem;
+        border-bottom-right-radius: 0.15rem;
+        font-size: 0.85rem !important;
+    }
+
+    span.date p {
+        font-size: 1rem;
+        display: inline-block;
+    }
+
+
+    .grid figure {
+        margin: 0px;
+    }
+
+    figure.effect-bubba:hover h2 {
+        padding-top: 15%;
+    }
+
+    .grid figure.effect-bubba:hover figcaption > a {
+        height: auto;
+        line-height: 30px;
+        margin: 10px auto 0;
+        width: 45%;
+        left: 28%;
+    }
+
+    .grid figure figcaption {
+        font-size: 1em;
+    }
+
+    .grid figure h2:after {
+        margin: 10px auto;
+    }
+
+
+    #pContainer h3:before,
+    #pContainer h3:after {
+        width: 4rem;
+    }
+
+    /* Our Projects */
+    /* Footer */
+    .footer-details {
+        margin: 10rem 0 0;
+    }
+
+    /* Footer */
+}
+
+@media(max-width:500px) {
+    .nav-pills .nav-link {
+        margin: 0.35rem;
+        font-size: 1rem;
+    }
+
+   .tabDetails .tab-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .section-heading {
+        font-size: 1.45rem;
+    }
+
+    .booking p:before {
+        top: -32px;
+    }
+
+    .booking p:after {
+        bottom: -30px;
+    }
+
+    .tab-content p {
+        font-size: 1rem;
+    }
+
+    footer {
+        background-size: 33rem;
+    }
+
+    .footer-details {
+        margin: 7rem 0 0 0;
+    }
+
+    .nav-pills .nav-link {
+        padding: 0.8rem .9rem;
+    }
+
+    .nav-tab-heading {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media(max-width: 425px) {
+    div#popLogo {
+        margin: 0;
+    }
+
+    .section-heading:before,
+    .section-heading:after {
+        width: 1rem;
+        margin: -6px 5px;
+    }
+    /* Who we are  */
+
+    .btn-common,
+    button.btn.btn-donate {
+        padding: 10px 12px;
+        margin: 0.5rem 0;
+    }
+
+    p.heroSecTitle {
+        left: 29%;
+    }
+
+    /* Projects */
+    .footer-details .contact-info {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info span {
+        margin: 0.7rem 0 0 0;
+    }
+
+    .contact-info span a {
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 375px) {
+
+    /* Sensitive Media */
+    .sensitive-media small {
+        font-size: 0.9rem;
+    }
+
+    /* Sensitive Media */
+    /* Our Events */
+    .upcoming-details-content p {
+        font-size: 1.5rem;
+    }
+
+    span.EventDetails {
+        flex-wrap: wrap;
+    }
+
+    .EventDetails span {
+        margin-bottom: 0.5rem;
+    }
+
+    /* Our Events */
+    /* Who we are  */
+
+    .who-we-are-content .btn-common {
+        padding: 4px 16px;
+        font-size: 1rem;
+    }
+
+    /* Who we are  */
+    /* Footer */
+    .contact-info {
+        display: block;
+    }
+
+    .contact-info span {
+        display: inline-block;
+        justify-content: start;
+        opacity: 0.7;
+    }
+
+    .partners {
+        padding: 20px 15px 70px;
+    }
+
+    /* Footer */
+
+    .grid figure {
+        height: 380px;
+    }
+
+    /* Our Projects */
+}
+
+@media (max-width:320px) {
+    p.heroSecTitle {
+        left: 22%;
+    }
+}
