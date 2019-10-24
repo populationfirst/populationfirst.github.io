@@ -37,31 +37,46 @@ body {
     padding: 0.75rem 1.25rem !important;
     font-weight: 600 !important;
 }
+
 a.btn.btn-white:hover {
     /* background-color: #ed1c24; */
     /* color: #fff; */
-    transform: translate3d(0,3px,0);
+    transform: translate3d(0, 3px, 0);
     transition: all ease-in .3s;
 }
+
 .logo {
     background-color: #fff;
 }
 
 /* Event */
+.websiteView {
+    display: block;
+}
 
-#laadliEvent>h2{
+.mobileView {
+    display: none;
+}
+
+#laadliEvent > h2 {
     font-weight: 600;
     margin-bottom: 0;
 }
-#laadliEvent>h3{
-    margin: 1rem 0 2rem 0;   
+
+#laadliEvent > h3 {
+    margin: 1rem 0 2rem 0;
     font-weight: 600;
 }
 
+.heroImage {
+    width: 100%;
+}
+
 /* Navigation */
-.navImage{
+.navImage {
     background-image: url(../images/navigation_image.png);
 }
+
 #mynav.fixed-top {
     position: sticky;
     top: 0;
@@ -69,6 +84,7 @@ a.btn.btn-white:hover {
     left: 0;
     z-index: 1030;
 }
+
 nav.navbar.fixed-top.nav-bg {
     background-color: #111;
 }
@@ -247,21 +263,26 @@ span.event-month {
 .event-details {
     border: 1px solid #ddd;
 }
+
 span.EventDetails {
     display: flex;
     padding-bottom: 1.5rem;
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #d1d1d1;
 }
-.EventDetails span, .EventDetails span p {
+
+.EventDetails span,
+.EventDetails span p {
     display: flex;
     align-items: center;
 }
+
 .EventDetails span p {
     margin-bottom: 0;
     margin-left: 0.65rem;
     margin-right: 2rem;
 }
+
 .details {
     border-left: 1px solid #ddd;
 }
@@ -329,6 +350,7 @@ a.button-text-white {
     min-height: 500px;
     position: relative;
 }
+
 p.heroSecTitle {
     display: inline-block;
     font-size: 2.5rem;
@@ -351,6 +373,7 @@ p.heroSecTitle:after {
 .EventImage {
     position: relative;
 }
+
 span.date {
     position: absolute;
     left: 3rem;
@@ -361,10 +384,12 @@ span.date {
     font-weight: 600;
     text-align: center;
 }
+
 span.date p {
     margin-bottom: 0.15rem;
     font-size: 1.25rem;
 }
+
 .booking h3 {
     display: inline-block;
     margin: 0 0 2rem 0;
@@ -385,7 +410,8 @@ span.date p {
     font-weight: 500;
     text-align: left;
 }
-.booking p span{
+
+.booking p span {
     font-weight: 600;
 }
 
@@ -404,7 +430,7 @@ ul.nav.nav-pills.custom_nav {
     padding: 1rem 0;
     width: 100%;
     position: sticky;
-    top: 5.5rem;
+    top: 4.5rem;
     z-index: 9;
     box-shadow: 0px 8px 8px rgba(62, 62, 62, 0.23);
 }
@@ -437,6 +463,8 @@ ul.nav.nav-pills.custom_nav {
 
 .tab-content p {
     font-size: 1.15rem;
+    line-height: 180%;
+    color: #3c3c3c;
 }
 
 .booking {
@@ -448,6 +476,7 @@ ul.nav.nav-pills.custom_nav {
     font-size: 1.15rem;
     line-height: 165%;
 }
+
 /*About Us Page CSS Ends*/
 
 
@@ -471,9 +500,11 @@ footer a:hover {
     color: #e91a25;
     text-decoration: none;
 }
-footer .socialLinks{
+
+footer .socialLinks {
     display: none;
 }
+
 footer .socialLinksDesktop .social-buttons {
     position: absolute !important;
     display: flex;
@@ -481,10 +512,12 @@ footer .socialLinksDesktop .social-buttons {
     flex-direction: column;
     bottom: 5%;
 }
+
 footer .socialLinksDesktop .social-buttons li.list-inline-item {
     margin: 0;
     margin-bottom: 0.5rem !important;
 }
+
 footer .contact-info {
     display: flex;
     justify-content: center;
@@ -516,24 +549,67 @@ ul.social-buttons li a {
     text-align: center;
 }
 
-ul.social-buttons li a.fb:hover {
+ul.social-buttons li a.tw:hover {
     background-color: #26A6D1;
+    transform: scale(0.9, 0.9);
+    transition: all ease-in .3s;
 }
 
-ul.social-buttons li a.tw:hover {
+ul.social-buttons li a.fb:hover {
     background-color: #3B5998;
+    transform: scale(0.9, 0.9);
+    transition: all ease-in .3s;
 }
 
 ul.social-buttons li a.youtube:hover {
     background-color: #D42428;
+    transform: scale(0.9, 0.9);
+    transition: all ease-in .3s;
 }
 
 footer .address {
     margin: 1.5rem auto !important;
+    font-weight: 600;
+    line-height: 180%;
 }
 
 /*Footer*/
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
+
+/*Tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }

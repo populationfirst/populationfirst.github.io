@@ -107,6 +107,7 @@
     div#popLogo {
         margin: 0;
     }
+
     /* Navbar */
 
     /* Event */
@@ -114,8 +115,9 @@
         padding: 12px;
         height: 100px;
     }
+
     /* Event */
-    
+
     footer {
         background-size: 65rem;
         height: auto;
@@ -140,7 +142,7 @@
     }
 
     ul.nav.nav-pills.custom_nav {
-        top: 3.5rem;
+        top: 3rem;
     }
 
     p.heroSecTitle {
@@ -172,6 +174,7 @@
     .section-heading:after {
         width: 2rem;
     }
+
     /* Our Event */
 
     /* Navbar */
@@ -197,7 +200,7 @@
     .phone.pl-4 {
         padding-left: 1.2rem !important;
     }
-    
+
     .booking {
         padding: 3rem 3rem;
     }
@@ -230,6 +233,7 @@
     .nav-pills .nav-link {
         font-size: 1.05rem;
     }
+
     /* Our Event */
     .event-date {
         height: 120px;
@@ -285,6 +289,10 @@
 }
 
 @media(max-width: 575px) {
+    #navbarResponsive ul.navbar-nav li.nav-item a.nav-link img {
+        width: 20px;
+    }
+
     div#popLogo {
         margin: 0;
     }
@@ -320,9 +328,9 @@
         bottom: 0;
         width: 100%;
         background-color: #ffcc00d9;
-        padding: 0;
-        border-bottom-left-radius: 0.15rem;
-        border-bottom-right-radius: 0.15rem;
+        padding: 0.5em;
+        border-bottom-left-radius: 0.4rem;
+        border-bottom-right-radius: 0.4rem;
         font-size: 0.85rem !important;
     }
 
@@ -362,6 +370,30 @@
         width: 4rem;
     }
 
+    #laadliEvent > h2 {
+        font-size: 1.65rem;
+    }
+
+    #laadliEvent > h3 {
+        font-size: 1.2rem;
+        line-height: 150%;
+        margin: 1rem 0;
+    }
+
+    .websiteView {
+        display: none;
+    }
+
+    .mobileView {
+        display: block;
+        width: 100%;
+    }
+
+    .btn-white {
+        padding: 0.75rem !important;
+        font-size: 0.85rem !important;
+    }
+
     /* Our Projects */
     /* Footer */
     .footer-details {
@@ -377,7 +409,7 @@
         font-size: 1rem;
     }
 
-   .tabDetails .tab-content h1 {
+    .tabDetails .tab-content h1 {
         font-size: 1.5rem;
     }
 
@@ -407,6 +439,17 @@
 
     .nav-pills .nav-link {
         padding: 0.8rem .9rem;
+        min-width: 10rem;
+    }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+        background-color: #E81A25 !important;
+        padding: 0.5em !important;
+    }
+
+    ul.nav.nav-pills.custom_nav {
+        padding: 0.5rem 0;
     }
 
     .nav-tab-heading {
@@ -424,6 +467,7 @@
         width: 1rem;
         margin: -6px 5px;
     }
+
     /* Who we are  */
 
     .btn-common,
